@@ -1,5 +1,5 @@
 @import url("../css/reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root {
     --dark-orange: #f16718;
@@ -13,4 +13,67 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.24rem;
+    padding-inline: 1.5rem;
+}
+
+.btn-pre-order {
+    background: var(--light-grey);
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.apresentation {
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+}
+
+.titulo, .release {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.apresentation-title {
+    font-size: 3rem;
+}
+
+.text {
+    color: var(--light-blue);
+    line-height: 1.625rem;
+}
+
+.apresentation-text {
+    padding-block: 2rem;
+    padding-right: 1.2rem;
+}
+
+.apresentation-button {
+    display: flex;
+    gap: 2rem;
+}
+
+.orange-button {
+    background: var(--dark-orange);
+    color: white;
+}
+
+.release {
+    padding-top: 1rem;
+}
+
+.key-over {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
 }
