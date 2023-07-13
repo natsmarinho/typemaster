@@ -1,0 +1,16 @@
+@import url("../css/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --dark-orange: #f16718;
+    --light-orange: #ff9b62;
+    --dark-blue: #162542;
+    --light-blue: #7b8bad;
+    --white: #ffffff;
+    --light-grey: #e8eff2;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
