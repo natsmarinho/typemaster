@@ -1,5 +1,5 @@
 @import url("../css/reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700;900&display=swap');
 
 :root {
     --dark-orange: #f16718;
@@ -45,7 +45,8 @@ body {
 }
 
 .apresentation-title {
-    font-size: 3rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
 }
 
 .text {
@@ -76,4 +77,28 @@ body {
     width: 100%;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
+}
+
+.second-apresentation {
+    padding-top: 2rem;
+}
+
+.apresentation-nd-img {
+    padding-left: .84rem;
+    border-radius: 36px;
+}
+
+.second-apresentation-texts {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.second-apresentation-texts h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.second-apresentation-texts p {
+    padding-inline: 1.5rem;
 }
