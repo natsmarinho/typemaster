@@ -30,7 +30,7 @@ body {
 .btn {
     text-transform: uppercase;
     font-weight: 900;
-    padding: 1rem;
+    padding: 1rem .5rem;
     border-radius: 0.5rem;
 }
 
@@ -102,3 +102,20 @@ body {
 .second-apresentation-texts p {
     padding-inline: 1.5rem;
 }
+
+.key-specs {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.key-specs-items {
+    text-align: center;
+}
+
+.key-specs-titulo {
+    padding-block: 3rem 1.5rem;
+    font-size: 1.6rem;
+}
+
