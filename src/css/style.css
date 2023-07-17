@@ -112,10 +112,21 @@ body {
 
 .key-specs-items {
     text-align: center;
+    padding-inline: 1.5rem
 }
 
 .key-specs-titulo {
+    font-size: 1.5rem;
     padding-block: 3rem 1.5rem;
-    font-size: 1.6rem;
+}
+
+.rodape {
+    padding-block: 6rem 3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.span-rodape {
+    color: rgb(103, 103, 103);
 }
 
