@@ -13,6 +13,7 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .cabecalho {
@@ -30,8 +31,9 @@ body {
 .btn {
     text-transform: uppercase;
     font-weight: 900;
-    padding: 1rem .5rem;
+    padding: 1rem .8rem;
     border-radius: 0.5rem;
+    font-size: 1rem;
 }
 
 .apresentation {
@@ -67,6 +69,7 @@ body {
 .orange-button {
     background: var(--dark-orange);
     color: white;
+    font-weight: 700;
 }
 
 .release {
@@ -130,3 +133,37 @@ body {
     color: rgb(103, 103, 103);
 }
 
+@media screen and (min-width: 700px) {
+    .apresentation {
+        display: flex;
+    }
+
+    .apresentation-text {
+        padding-right: 4rem;
+    }
+
+    .key-over {
+        width: 24rem;
+        height: 32rem;
+    }
+
+    .img-second-apresentation {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .first-img {
+        height: 26rem;
+        border-radius: 35px;
+    }
+
+    .apresentation-nd-img {
+        width: 26rem;
+    }
+
+    .key-specs {
+        flex-direction: row;
+    }
+    
+}
