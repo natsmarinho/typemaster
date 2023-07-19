@@ -159,11 +159,58 @@ body {
     }
 
     .apresentation-nd-img {
-        width: 26rem;
+        width: 30rem;
+    }
+
+    .second-apresentation-texts {
+        display: flex;
+        align-items: center;
+        gap: 2.25rem;
+    }
+
+    .second-apresentation-texts h2 {
+      padding-left: 2.5rem;  
     }
 
     .key-specs {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 
+        repeat(auto-fit, minmax(20rem, 1fr));
+    }
+
+    .key-specs-items {
+       text-align: start;
     }
     
+}
+
+@media screen and (min-width: 1220px) {
+    .btn-pre-order:hover {
+        background: var(--dark-blue);
+        color: var(--white);
+    }
+
+    .orange-button:hover {
+        background: var(--light-orange);
+    }
+
+    .second-apresentation {
+        display: flex;
+    }
+
+    .img-second-apresentation {
+        align-items: start;
+        padding-left: 2rem;
+    }
+
+    .second-apresentation-texts {
+        flex-direction: column;
+        text-align: start;
+        padding-left: 10rem;
+        padding-right: 1.5rem;
+    }
+
+    .second-apresentation-texts p {
+        padding-left: 2.5rem;
+    }
 }
